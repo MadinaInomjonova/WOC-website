@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    color: #1C1C1C;
+}
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+/* Button */
+.primary_button {
+    width: 6.6rem;
+    height: 3rem;
+    border: 1px solid #1C1C1C;
+    border-radius: 8px;
+    background-color: #FFF;
+    text-transform: capitalize;
+}
+.primary_button:hover {
+    background-color: #1C1C1C;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.btn {
+    color: #FFF;
+    width: 12.6rem;
+    height: 3rem;
+    background-color: #1b1aff;
+    border-radius: 8px;
+    border: 1px solid #1B1AFF;
+    margin-right: 3rem;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #1B1AFF;
+    padding: 0.3rem 0;
+    margin-right: 0.5rem;
+}
+.logo__text {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.menu a {
+    display: inline-block;
+    list-style: none;
+    padding-right: 3rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.register button {
+    margin-right: 0.9rem;
+}
+
+/* Home Section */
+.home_section__first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+}
+
+.home_section__body h2 {
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+}
+.home_section__body p {
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+.home_section__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home_section__footer a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+}
+
+.home_section__image img {
+    width: 42.5rem;
+    height: 41rem;
+}
+
+.home_section__second {
+    padding-top: 8.625rem;
+    padding-bottom: 10rem;
+    background-color: #F5F8FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home_section__second h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.home_section__second p {
+    text-align: center;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 5.5rem;
+}
+
+.home_card__footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7.5rem;
+}
+
+/* Courses Section */
+.courses_section {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+}
+.courses_section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+.courses_section__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card_item {
+    /* width: 24rem;
+    height: 26rem; */
+    background-color: #F5F8FE;
+    border-radius: 1.5rem;
+    padding: 2rem 2rem;
+}
+.card_item img {
+    padding-bottom: 1rem;
+}
+.card_item h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+.card_item p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+.card_item button {
+    background-color: #1C1C1C;
+    color: #FFF;
+}
+
+/* About Section */
+.about_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+
+.about_section__header img {
+    margin-bottom: 1rem;
+}
+.about_section__header h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+.about_section__header p {
+    font-weight: 1.125rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.about_section__body {
+    background-color: #F5F8FE;
+    border-radius: 1.5rem;
+    width: 49.5rem;
+    height: 26rem;
+    padding: 2rem;
+}
+.about_section__body a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1B1AFF;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 3.25rem;
+}
+.about_section__body h4 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.about_section__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_left__logo img {
+    padding-right: 1rem;
+}
+.footer_left__title h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_right img:first-child {
+    padding-right: 1rem;
+}
+
+
+/* Blog Section */
+.blog_section {
+    background-image: url("./image/Component\ 1\ \(1\).png");
+    width: auto;
+    max-height: 32rem;
+    text-align: center;
+}
+.blog_section h2 {
+    padding-top: 9.5rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+.blog_section .btn {
+    background-color: #1C1C1C;
+    color: #FFF;
+    margin-top: 2.5rem;
+    margin-bottom: 9.5rem;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #1C1C1C;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_section__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5.87rem;
+} 
+
+.footer_section .logo .logo__text {
+    color: #FFF;
+}
+.footer_body__title h4, .footer_body__contact p, .footer_body__contact a, .footer_body__item a {
+    color: #FFF;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+.footer_body__item a {
+    display: block;
+
+}
